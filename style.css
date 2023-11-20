@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    background-image: linear-gradient(to right, rgb(12 0 238 / 72%),rgb(17 30 126)),url(./assets/bg.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    padding: 50px;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    text-align: center;
+}
+.alt h2{
+    font-size: 30px;
+    color: white;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    color: white;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.sing{
+    margin-top: 30px;
+}
+.sing img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.web{
+    width: 40%;
+}
+.web h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+}
+.web p{
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+}
+.btnn button{
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.btnn{
+    text-align: start;
+}
+.auction{
+    width: 40%;
+}
+.auction img{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.event h2{
+    margin-top: 150px;
+    font-size: 36px;
+    margin-left: 80px;
+}
+.event p{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.bttnn button{
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.three{
+    background-color: rgba(45, 157, 201, 0.406);
+    margin-top: 80px;
+}
+.center h3{
+    font-size: 36px;
+    padding-top: 50px;
+}
+fieldset{
+    border: 3px dotted red;
+    padding: 10px;
+    margin: 50px 20px;
+}
+legend{
+    color: red;
+    font-size: 24px;
+}
+.network p{
+    margin-top: 10px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dotted red;
+    color: red;
+    text-align: center;
+}
+.box h2{
+    margin-top: 20px;
+}
+.active{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+.Sept{
+    width: 20%;
+    margin-top: 60px;
+}
+.image{
+    width: 20%;
+}
+.img1 img{
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.digit{
+    margin-top: 95px;
+    width: 80%;
+    margin-left: 50px;
+}
+.digit p{
+    margin-top: 10px;
+}
+.bbtn button {
+    padding: 10px 20px;
+    background-color: crimson;
+    border: none;
+    color: white;
+}
+.bbtn {
+    text-align: center;
+}
+.line{
+    height: 80px;
+    border-left: 5px dotted red;
+    margin-left: 50px;
+}
+.mic{
+    background-color: rgba(45, 157, 201, 0.406);
+    padding: 20px;
+    margin-top: 50px;
+}
+.mike img{
+    height: 150px;
+}
+.red{
+    background-color: crimson;
+    color: white;
+}
+.mike h3{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.mike p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.mike{
+    padding: 50px;
+}
+.mike:hover{
+    background-color:crimson;
+}
+iframe{
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.imgg{
+    width: 30%;
+}
+.last{
+    background-color: rgba(45, 157, 201, 0.406);
+    margin-top: 50px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+.last h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.imgg h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imgg p{
+    padding-bottom: 10px;
+}
+.read{
+    color: crimson;
+}
+.foot{
+    background-color: blue;
+    padding: 50px;
+}
+.brand, .quick, .follow{
+    width: 30%;
+}
+.brand h2{
+    font-size: 48px;
+    color: crimson;
+}
+.quick h2{
+    color: white;
+}
+.program{
+    margin-top: 20px;
+}
+.program a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.follow{
+    color: white;
+}
+.follow i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.follow i{
+    padding-inline: 10px;
+}
+.fot{
+    background-color: rgb(20, 20, 81);
+    padding: 20px;
+    color: white;
+}
+#toggle{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .bars{display: none;}
+}
+
+@media screen and (max-width: 768px) {
+    .flex, .center{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    /* .web .auction .Sept .image .digit .imgg .brand .quick .follow{
+        width:100%;
+    } */
+    .icon{
+        margin-top: 1rem;
+    }
+    .web{
+        width: 100%;
+    }
+    .web h1{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .web p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .btnn{
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .sing img{
+        width: 100%;
+    }
+    .auction{
+        width: 100%;
+    }
+    .auction img{
+        width: 100%;
+    }
+    .event {
+        text-align: center;
+    }
+    .event h2{
+        margin-top: 2rem;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .event p{
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .bttnn{
+        margin-left: 0rem;
+    }
+    .three{
+        margin-top: 2rem;
+    }
+    fieldset{
+        margin: 1rem;
+    }
+    .bttnn button {
+        margin-left: 0;
+    }
+    .icon{
+        display: none;
+    }
+    .icon a{
+        margin-left: 0;
+        font-size: 18px;
+        display: block;
+    }
+    #toggle:checked ~ .icon{
+        display: inline-block;
+    }
+    .bars{
+        font-size: 18px;
+        position: relative;
+        z-index: 99;
+        color: white;
+    }
+    .icon{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 30vh;
+        padding-top: 30px;
+        background-color: rgba(34,2,53,0.9);
+        text-align: center;
+    }
+    .Sept{
+        margin-left: 9rem;
+        margin-top: 2rem;
+    }
+    .image{
+        margin-left: 2rem;
+    }
+    .image img{
+        width: 20rem;
+    }
+    .digit{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .bbtn{
+        margin-top: 2rem;
+    }
+    .mike{
+        margin: 0 auto;
+        width: 60%;
+    }
+    .imgg{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .imgg h3{
+        font-size: 2rem;
+    } 
+    .imgg p{
+        font-size: 1.5rem;
+    }
+    .imgg a{
+        font-size: 1.5rem;
+    }
+    .last{
+        padding-bottom: 1rem;
+    }
+    .foot{
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+    .brand{
+        width: 100%;
+        margin-left: 2rem;
+    }
+    .quick{
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .follow{
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+
